@@ -1,12 +1,12 @@
 import React from "react";
-import "./main.scss";
-
+import Game from "./components/game";
+import "./app.css";
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="container">
-
+        <Game />
       </div>
     );
   }
